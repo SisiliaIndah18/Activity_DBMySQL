@@ -1,4 +1,4 @@
-package com.example.dbmysql;
+package com.example.dbmysql.database;
 
 import java.io.Serializable;
 
