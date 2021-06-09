@@ -80,7 +80,7 @@ public class TambahTeman extends AppCompatActivity {
                 @Override
                 public void onErrorResponse(VolleyError error){
                     Log.e(TAG, "Error"+error.getMessage());
-                    Toast.makeText(TambahTeman.this,"Gagal simpan data",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(TambahTeman.this,"Gagal menyimpan data",Toast.LENGTH_SHORT).show();
                 }
             }){
                 @Override
