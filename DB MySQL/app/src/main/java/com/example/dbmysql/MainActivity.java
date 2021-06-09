@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<Teman> temanArrayList= new ArrayList<>();
 
     private static final String TAG = MainActivity.class.getSimpleName();
-    private static String url_select = "http://172.20.10.2/umyT/bacateman.php";
+    private static String url_select = "http://172.20.10.2/umyTI/bacateman.php";
     public static final String TAG_ID = "id";
     public static final String TAG_NAMA = "nama";
     public static final String TAG_TELPON = "telpon";

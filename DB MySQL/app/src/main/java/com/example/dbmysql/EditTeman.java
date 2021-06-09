@@ -31,7 +31,7 @@ public class EditTeman extends AppCompatActivity {
     String id, nm, tlp, namaEd, telponEd;
     int sukses;
 
-    private static String url_update = "http://10.0.2.2/umyTI/updatetm.php";
+    private static String url_update = "http://172.20.10.2/umyTI/updatetm.php";
     private static final String TAG = EditTeman.class.getSimpleName();
     private static final String TAG_SUCCES = "success";
 
@@ -57,6 +57,7 @@ public class EditTeman extends AppCompatActivity {
         editBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 EditData();
             }
         });
