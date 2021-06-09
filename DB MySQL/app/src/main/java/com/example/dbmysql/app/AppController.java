@@ -38,7 +38,7 @@ public class AppController extends Application{
         req.setTag(TAG);
         getmRequestQueue().add(req);
     }
-    public void cancelPendiingRequest(Object tag)
+    public void cancelPendingRequest(Object tag)
     {
         if(mRequestQueue != null)
         {
